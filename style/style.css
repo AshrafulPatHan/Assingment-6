@@ -1,0 +1,317 @@
+
+/*--------------------------- Responcive work in 500:611(I use 500 as a width) ------------------*/
+
+
+/* Google font */
+
+.lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* All */
+
+*{
+margin: 0px;
+padding: 0px;
+
+}
+
+/* Nav Bar */
+
+
+/* Bringing Families Together ❤️‍🔥 */
+
+.header_img{
+    width: 802.28px;
+    height: 450px;
+
+}
+
+#header_button{
+    width: 163px;
+    height: 56px;
+    padding: 16px 32px 16px 32px;
+    border-radius: 16px;
+    background: rgb(14, 122, 129);
+    font-size: 1rem;
+    font-weight: 700;
+    color:#FFFFFF ;
+
+}
+
+/* Adopt Your Best Friend  */
+
+.pat_btn_mob{
+    width: 200px;
+    height: 96px;
+    box-sizing: border-box;
+    border: 2px solid rgba(15, 31, 32, 0.692);
+    border-radius: 16px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+gap: 16px;
+padding: 24px;
+background-color: rgb(198, 207, 207);
+font-size: 24px;
+font-weight: 700;
+
+}
+
+#btn_sort{
+    width: 178px;
+    height: 56px;
+    border-radius: 12px;
+    background: rgb(14, 122, 129);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#div_frand_fast{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+    height: 491px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1.5px solid rgba(56, 50, 50, 0.863);
+    border-radius: 12px;
+    
+
+}
+
+
+#div_frand_last{
+    width: 312px;
+    height:  auto;
+    padding: 20px;
+    padding-bottom: 400px;
+    box-sizing: border-box;
+    border: 1.5px solid rgba(56, 50, 50, 0.863);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* footer section */
+
+#footer_btn_last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 49px;
+    padding: 16px 32px 16px 32px;
+    border-radius: 17px;
+    background: rgb(14, 122, 129);
+
+}
+
+#footer_inp_1{
+    width: 240px;
+    height: 49px;
+    border-radius: 12px;
+    background: rgba(19, 18, 22, 0.801);
+    padding: 15px 17px 15px 17px;
+color: rgb(162, 173, 173);
+}
+
+/* --------------------------- Responcive Section  ------------------------------- */
+/* Responcive work in 500:611(I use 500 as a width) */
+
+@media screen and (max-width: 600px){
+
+/* All */
+*{
+margin: 0px;
+padding: 0px;
+}
+
+/* Nav Bar */
+#nav_bar{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+justify-content: center;
+}
+
+#nav_hader_1{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+/* Bringing Families Together ❤️‍🔥 */
+
+#baner_titl_2{
+font-size: 26px;
+
+}
+#baner_titl_1{
+font-size: 36px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+#baner_pra_1{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+width: 90%;
+
+}
+
+.header_img{
+width: 350px;
+height: 196px;
+
+}
+
+/* Adopt Your Best Friend  */
+
+#Adopt_pra_1{
+width: 70%;
+}
+
+#Adopt_div_btn{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 20px;
+
+}
+
+#sort_div_only{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 20px;
+
+
+}
+
+#API_only_div{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 20px;
+margin: 2px;
+
+}
+
+#div_frand_fast{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 350px;
+    height: auto;
+    padding: 20px;
+    padding-bottom: 400px;
+    box-sizing: border-box;
+    border: 1.5px solid rgba(56, 50, 50, 0.863);
+    border-radius: 12px;
+    margin-top: 20px;
+
+}
+
+
+#div_frand_last{
+    width: 350px;
+    height: auto;
+    padding: 20px;
+    padding-bottom: 300px;
+    box-sizing: border-box;
+    border: 1.5px solid rgba(56, 50, 50, 0.863);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+
+}
+
+/* footer section */
+
+#footer{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 33px;
+
+}
+
+#footer_2{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+#footer_3{
+margin-bottom: 3px;
+
+}
+
+
+}
+
+
+/* API responcive */
+
+.div_pra_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 965px;
+    height: 471px;
+    border-radius: 24px;
+    background: rgba(19, 19, 19, 0.03);
+    padding: 10px 0px;
+}
+
+.error_img {
+    width: 153.75px;
+    height: 146.61px;
+}
+
+@media screen and (max-width: 600px) {
+    .div_pra_1 {
+        width: 340px;
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+

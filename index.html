@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" > 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link responcive tailwind -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment_6</title>
+    <!-- font-awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- link tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <!-- link with daisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- link Lato font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <!-- link Favicon -->
+    <link rel="shortcut icon" href="./image/logo.webp" type="image/x-icon">
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body class="lato-regular-italic">
+    <!-- Nav Bar -->
+    <nav class="flex flex-row items-center justify-center gap-[33%] mt-12 " id="nav_bar">
+        <div class="flex flex-row items-center gap-3 ">
+            <img src="./image/logo.webp" alt="icon">
+            <h3 class="text-2xl font-black text-[#131313]   ">Peddy</h3>
+        </div>
+        <div class="flex flex-row items-center gap-8 ">
+            <p class="text-slate-600 font-bold  ">Home</p>
+            <p class="text-slate-600 font-bold  ">Shop</p>
+            <p class="text-slate-600 font-bold  ">Contact</p>
+        </div>
+        <div >
+            <img src="./image/circle-user-regular.svg" alt="icon" style="width:56px; height:56px; ">
+        </div>
+        
+    </nav>
+    <!-- Bringing Families Together ❤️‍🔥 -->
+    <section class="flex flex-col items-center justify-center gap-[42px] mt-[68px] " id="nav_hader_1">
+        <h3 class="text-3xl font-extrabold text-[#415858] " id="baner_titl_2" >Bringing Families Together ❤️‍🔥</h3>
+        <h1 class="text-7xl font-black text-[#13131399#131313] " id="baner_titl_1"  >Your Path to Adoption Starts Here</h1>
+        <p class="w-[33%] text-center  text-base font-bold  " id="baner_pra_1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a</p>
+        <button id="header_button">View More </button>
+        <img src="./image/pet.webp" alt="pet image" class="header_img">
+    </section>
+    <!-- Adopt Your Best Friend  -->
+    <section class="mt-[100px]" id="friend_id" >
+        <div class="flex flex-col items-center justify-center gap-6 mb-7 ">
+            <h3 class="text-4xl font-black  ">Adopt Your Best Friend</h3>
+            <p class="font-bold w-[40%] text-center text-slate-400 " id="Adopt_pra_1">The unconditional love of a pet can do more than keep you company. Pets may also decrease stress, improve heart health, and even help children with their emotional and social skills.</p>
+        </div>
+        <div class="flex flex-row items-center justify-center gap-[2%] " id="Adopt_div_btn" >
+            <button  onclick="document.getElementById('Adopt_btn_1').style.backgroundColor = 'red'" class="pat_btn_mob" id="Adopt_btn_1">
+                <img src="./image/shiba 1.png" alt="icon" class="pat_img_icon">
+                Dogs
+            </button>
+            <button class="pat_btn_mob" id="Adopt_btn_2">
+                <img src="./image/cat 1.png" alt="icon" class="pat_img_icon">
+                Cats
+            </button>
+            <button class="pat_btn_mob" id="Adopt_btn_3">
+                <img src="./image/rabbit 1.png" alt="icon" class="pat_img_icon">
+                Rabbits
+            </button>
+            <button class="pat_btn_mob" id="Adopt_btn_4">
+                <img src="./image/parrot 1.png" alt="icon" class="pat_img_icon">
+                Birds
+            </button>
+        </div>
+        <div class="flex flex-row items-center justify-center gap-[70%] mt-8" id="sort_div_only">
+            <h3 class="font-black text-2xl  ">Best Deal For you</h3>
+            <button   id="btn_sort">Sort by Price</button>
+        </div>
+        <div class="flex flex-row  items-start justify-between mx-[2%] mt-8 gap-[1.5%] " id="API_only_div">
+            <div id="div_frand_fast" >
+
+            </div>
+            <div id="div_frand_last">
+
+            </div>
+        </div>
+    </section>
+    <!-- footer section -->
+    <footer class="bg-[#0f0e0ede] flex flex-row items-center justify-center gap-[20%] pb-24 mt-8 pt-16" id="footer">
+        <div>
+            <div class="flex flex-row items-center gap-3  mb-6 ">
+                <img src="./image/logo.webp" alt="icon">
+                <h3 class="text-2xl font-black text-[#dfc9c9]   ">Peddy</h3>
+            </div>
+            <p class="text-[#eed9d9ef]   ">Location: av. Washington 165, NY CA 54003</p>
+            <p class="text-[#eed9d9ef]   ">Phone: +31 85 964 47 25</p>
+            <p class="text-[#eed9d9ef]   ">Email: info@yourdomain.com</p>
+            <p class="text-[#eed9d9ef]   ">Openings hours: 9.00 AM - 5.00 PM</p>
+            <div class="flex flex-row items-center gap-6 mt-4 ">
+                <i class="fa-brands fa-facebook" style="color: #1c5fd4;   font-size: 32px;   "></i>
+                <i class="fa-brands fa-x-twitter" style="color: #ebeff4;  font-size: 32px;    "></i>
+                <i class="fa-brands fa-youtube" style="color: #d81313;     font-size: 32px; "></i>
+                <i class="fa-brands fa-instagram" style="color: #c32243;   font-size: 32px;   "></i>
+            </div>
+        </div>
+        <div id="footer_2">
+            <h3 class="text-[#eed9d9ef] font-bold text-lg mb-6 " id="footer_3" >Useful Links</h3>
+            <p class="text-[#eed9d9ef]   ">Home</p>
+            <p class="text-[#eed9d9ef]   ">About Us</p>
+            <p class="text-[#eed9d9ef]   ">Animals</p>
+            <p class="text-[#eed9d9ef]   ">Foundation</p>
+            <p class="text-[#eed9d9ef]   ">Contact</p>    
+        </div>
+        <div class="flex   flex-col items-center justify-center gap-9  ">
+            <h3 class="text-[#eed9d9ef] font-bold text-lg   ">Drop a Message</h3>
+            <input type="text" placeholder="Enter your email" name="" id="footer_inp_1">
+            <button class="text-[#eed9d9ef]   " id="footer_btn_last">Subscribe</button>
+        </div>
+    </footer>
+
+    <!-- link javascript -->
+    <script src="./javascript/index.js"></script>
+</body>
+</html>
